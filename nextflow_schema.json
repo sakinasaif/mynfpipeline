@@ -292,5 +292,22 @@
         {
             "$ref": "#/definitions/generic_options"
         }
-    ]
+    ],
+    "properties": {
+        "adapters": {
+            "type": "string",
+            "description": "These are adapters",
+            "fa_icon": "fab fa-adn"
+        },
+        "save_trimmed_fail": {
+            "type": "boolean",
+            "description": "Hello World",
+            "fa_icon": "far fa-address-book"
+        },
+        "save_merged": {
+            "type": "boolean",
+            "description": "Hello Again",
+            "fa_icon": "fab fa-airbnb"
+        }
+    }
 }
